@@ -1,0 +1,39 @@
+.gallery {
+	margin-bottom: 12px;
+	
+		img {
+		width: 100%;
+		height: 100%;
+		}
+		h2 {
+		position: absolute;
+		@extend .white;
+		left: 5%;
+		bottom: 5%;
+		} 
+}
+
+$colWidth-g: 10%;
+
+.gallery-1 {
+	padding-bottom: 12px;
+		.col-g-1 {
+		width: $colWidth-g * 4;
+		}
+		.col-g-2 {
+		width: $colWidth-g * 5;
+		}
+}
+[class*="col-g-"] {
+	float: left;
+	min-height: 1px;
+	position: relative;
+}
+.left {
+	padding-left: 0;
+	padding-right: 12px;
+}
+.right {
+	padding-right: 0;
+	padding-left: 12px;
+}
