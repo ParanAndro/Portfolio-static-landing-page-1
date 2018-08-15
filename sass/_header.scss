@@ -7,17 +7,17 @@
 		@extend .white;
 		font-size: 54px;
 		font-weight: 700;
-		margin-top: 60px;
+		margin-top: 5em;
 		letter-spacing: 4px;
 	}
 		.jumbo {
 		@extend .white, .text-standard;
-		margin-bottom: 160px;
+	
 	}
 		.ellipse {
-		margin-top: 150px;
+		margin-top: 7em;
 	}
 		.shape {
-		margin-bottom: 50px;
+		padding-top: 5em;
 	}
 }
